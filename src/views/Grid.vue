@@ -74,7 +74,7 @@
       </div>
 
       <div class="row second-section mx-auto align-items-center">
-        <div class="col-auto mx-auto">
+        <div class="col-auto mx-auto col-md-auto">
           <img class="photo" src="~@/assets/Image/program.jpg" width="300px">
         </div>
         <div class="col-12 col-md-auto mx-auto text-center skills about-me">
