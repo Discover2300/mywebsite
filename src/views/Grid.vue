@@ -65,7 +65,7 @@
         </div>
         <div class="col-auto mx-auto order-1 order-md-2 mb-5">
           <div class="img-image">
-            <img src="~@/assets/Image/en.jpg" width="300px">
+            <img src="~@/assets/Image/en.jpg">
           </div>
         </div>
           </div>
@@ -75,7 +75,9 @@
 
       <div class="row second-section mx-auto align-items-center">
         <div class="col-auto mx-auto col-md-auto">
-          <img class="photo" src="~@/assets/Image/program.jpg" width="300px">
+           <div class="img-container">
+            <img class="photo" src="~@/assets/Image/program.jpg">
+           </div>
         </div>
         <div class="col-12 col-md-auto mx-auto text-center skills about-me">
           <div class="row pb-3">
@@ -345,7 +347,13 @@
         z-index: 100;
       }
     }
-
   }
-
+.img-container{
+ max-width:1000px;
+ height:auto;
+ img{
+ width:100%;
+ height:auto;
+ }
+}
 </style>
