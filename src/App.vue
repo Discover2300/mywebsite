@@ -1,28 +1,48 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+﻿<template>
+  <div>
+    <router-view></router-view>
+    <TheFooter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheFooter from "@/components/TheFooter.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    TheFooter,
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 160px !important; /* Height of the footer */
+  padding: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 160px; /* Set the fixed height of the footer here */
+}
+
+/* Override Bootstrap Styling */
+
+.btn-primary {
+  background-color: #025fce !important;
+}
+
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
 </style>
