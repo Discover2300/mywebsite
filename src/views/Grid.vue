@@ -1,7 +1,7 @@
 ﻿<template>
   <section id="about">
     <div class="container-fluid m-0 p-0">
-      <div class="row first-section align-items-center">
+      <div class="row first-section align-items-center no-gutters">
         <vue-particles
           :particlesNumber="90"
           linesColor="#220052"
@@ -74,7 +74,7 @@
       </div>
 
       <div class="row second-section mx-auto align-items-center">
-        <div class="col-auto mx-auto col-md-auto">
+        <div class="col-12 mx-auto col-md-auto">
            <div class="img-container">
             <img class="photo" src="~@/assets/Image/program.jpg">
            </div>
@@ -119,7 +119,7 @@
         </div>
         <div class="col">
           <div class="row text-center">
-            <div class="col-12 align-items-center">
+            <div class="col-12 align-items-center pt-5 pt-md-0">
               <h3 style="font-size:36px; opacity: 0.9; margin-bottom:1.5rem;">Professional Skills</h3>
             </div>
           </div>
@@ -147,7 +147,6 @@
           </div>
         </div>
       </div>
-     <TheFooter></TheFooter>
   </section>
   </template>
 
@@ -223,8 +222,8 @@
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
+      width:100%;
+      height:100%;
     }
     .about-me {
       max-width: 400px;
@@ -349,7 +348,7 @@
     }
   }
 .img-container{
- max-width:1000px;
+ max-width:400px;
  height:auto;
  img{
  width:100%;

@@ -1,5 +1,5 @@
 ﻿<template>
-  <footer id="the-footer">
+  <footer id="the-footer" class="py-3">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 text-center">
@@ -22,9 +22,7 @@
 <style lang="scss" scoped>
   
   #the-footer{
-  .footer {
     background-color: #220052;
-  }
   .title {
     color: white;
     font-size:16px;
