@@ -91,7 +91,7 @@
           </div>
           </div>
           <div class="row align-items-center no-gutters pb-3 ml-2">
-            <div class="col-auto" v-for="(item, index) in techskills" :key="'item_' + index ">
+            <div class="col-auto pb-2" v-for="(item, index) in techskills" :key="'item_' + index ">
               <span class="list">
                 {{ item.name }}
               </span>
@@ -283,7 +283,7 @@
     max-width:1140px;
     .photo{
       opacity:0.7;
-      width:400px;
+      width:100%;
       border-top-left-radius: 90px;
       border-top-right-radius: 90px;
       border-bottom-right-radius: 90px;
